@@ -1,0 +1,81 @@
+.NextStep{
+    /* background-color: #009e00; */
+    background-color: #01C5BB	;
+    color:#fff;
+    font-size: 20px;
+    margin: 10px auto;
+    padding: 10px 60px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: width 2s;
+    z-index: 2;
+}
+.NextStep:hover{
+    transform: scale(1.15);
+    background-color: #108070;
+}
+.NextStep[disabled]{
+    display: none;
+}
+.progressBar{
+    color:hotpink !important;
+    width: 100%;
+    height: 3px !important;
+}
+
+.finalPage{
+    text-align: center;
+}
+.finalPage h1{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 28px;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    color:#20B2AA;
+    text-transform: none;
+    text-shadow: none;
+}
+.finalPage h3{
+    text-align: center;
+    margin: 15px 0;
+    font-size: 20px;
+    font-family: Arial,sans-serif;
+    /* font-weight: bold; */
+    color: #48D1CC;
+    text-transform: none;
+    text-shadow: none;
+}
+.finalPage p{
+    font-size: x-large;
+    margin: 20px ;
+    font-weight: 600;
+    color: #FF3030	;
+}
+.responseTable{
+    margin: 15px auto ;
+    
+}
+.thead{
+    color: #696969;
+}
+.correct{
+    color: green;
+    font-size: 18px;
+}
+.incorrect{
+    color: red;
+    font-size: 18px;
+}
+.resultButton{
+    transition: width 2s;
+    z-index: 2;
+}
+.resultButton:hover{
+    transform: scale(1.15);
+}
+.resultButton[disabled]{
+    pointer-events: none;
+    opacity: 0.7;
+} 
